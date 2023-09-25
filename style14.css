@@ -1,0 +1,55 @@
+
+	.bouton{
+		background-color:grey;
+		color:#FFFF00;
+		border: none;
+		border-radius:50px;
+		padding: 15px 35px;
+		text-align: center
+		margin:10px;
+		cursor: pointer;
+		transition: color 0.2s ease;
+		width: 150px;
+	}
+	
+
+
+	.bouton:hover{
+  		background-color: #4CAF50; 
+  		color: white;	
+	}
+
+	.cercle{
+		background-image:url(photo.png);
+		background-position: center;
+		border: 10px;
+		border-radius:50%;
+		text-align: center;
+		margin:5px;
+		width:150px;
+		height:150px;
+
+
+	}
+
+	.div{
+		background-color:#C0C0C0;
+		color:black;
+		border: none;
+		border-radius:50px;
+		padding: 15px 35px;
+		text-align: center
+		margin:100px;
+		cursor: pointer;
+		transition: color 0.2s ease;
+		width: 350px;
+	}
+
+	.div:hover{
+		background-color:#808080;
+		width: 365px;
+		
+		color:black;
+	}
+
+	
