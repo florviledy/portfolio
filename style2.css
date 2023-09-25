@@ -1,0 +1,57 @@
+/* Style du bouton */
+.bouton {
+    background-color: grey;
+    color: #FFFF00;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 35px;
+    text-align: center; /* Ajout du point-virgule manquant */
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    width: 150px;
+}
+
+.bouton:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Style du cercle avec image de fond */
+.cercle {
+    background-image: url('ronaldo.jpg');
+    background-position: center;
+    background-size: contain;
+    border: 10px solid transparent; /* Ajout d'une couleur de bordure transparente */
+    border-radius: 50%;
+    text-align: center;
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+/* Style de la div avec image de fond */
+.div {
+    background-image: url('madrid.jpg');
+    background-position: center;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 15px 35px;
+    text-align: center; /* Ajout du point-virgule manquant */
+    margin: 100px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+    width: 350px;
+}
+
+.div:hover {
+    background-color: #808080;
+    width: 365px;
+    color: black;
+}
+
+    
+
+    
+
