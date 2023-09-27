@@ -5,22 +5,46 @@
 </head>
 <body>
 
-<link rel="stylesheet" type="text/css" href="stylefond.css">
- <a> Sommaire : </a>
-
-
-
-  <ol>
-     <li><h2><a href="page_accueil.html"  style="color:red;"> Page accueil </a> </h2></li>
-     <li><h2> <a href="page2.html" style="color:red;"> Page2 </a> </h2></li>
-     <li><h2> <a href="Liste_article.html" style="color:red;"> Liste des articles </a> </h2></li>
-     <li><h2> <a href="identification.html" style="color:red;"> Identification </a> </h2></li>
-	  <li><h2> <a href="QCM.html" style="color:red;"> TP2 Exercice 1</a> </h2></li>
-	<li><h2> <a href="Ex3.html" style="color:red;"> TP2 Exercice 2</a> </h2></li>
-     <li><h2> <a href="mission_2.html" style="color:red;"> Mission 2</a> </h2></li>
-	<li><h2> <a href="mission_3.html" style="color:red;"> Mission 3</a> </h2></li>
-  </ol>
-
+<link rel="stylesheet" type="text/css" href="body.css">
+ 
 
 </body>
+
+
 </html>
+
+
+
+<nav class="navbar-header"> 
+        <ul class="liste-menus">
+            <li class="menus"> <a href="#"> Accueil </a></li>     <!--Menus permettant une navigation entre les différentes pages-->
+            <li class="menus-mission"> <a href="#"> Missions </a>
+                <ul class="sous-liste-mission">
+                    <li class="sous-menus-mission"> <a href="mission_2.html"> Mission 2 </a></li> 
+                    <li class="sous-menus-mission"> <a href="mission_3.html"> Mission 3  </a></li> 
+
+                </ul>
+            </li>
+            <li class="menus">
+                TP <span> &#9660; </span>
+                
+                <ul class="sous-liste-tp">
+                    <li class="sous-menus-tp"> <a href="Qcm.html"> TP2.1 </a></li> 
+                    <li class="sous-menus-tp"> <a href="Ex3.html"> TP2.2 </a></li>
+                </ul>
+            </li>
+            <li class="menus">
+              Divers <span>&#9660;</span>
+              <ul class="sous-liste-divers">
+                <li class="sous-listes-divers"> <a href="page_accueil.html"  style="color:red;"> Page accueil </a> </h2></li>
+     <li class="sous-listes-divers"> <a href="page2.html" style="color:red;"> Page2 </a> 
+    <li class="sous-listes-divers"> <a href="Liste_article.html" style="color:red;"> Liste des articles </a> 
+         <li class="sous-listes-divers"> <a href="identification.html" style="color:red;"> Identification </a>
+
+            </ul>
+         
+        </ul>
+        
+
+        
+    </nav>
