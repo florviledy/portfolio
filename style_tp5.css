@@ -1,0 +1,27 @@
+div.bloc1{
+	background-color: blue;
+	height: 200px;
+	width: 200px;
+	float:left;
+	margin:10px;
+
+
+}
+div.bloc2{
+	background: linear-gradient( red, pink);
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	margin: 10px;
+}
+
+div.bloc3{
+	background-color:yellowgreen;
+	height: 200px;
+	width: 200px;
+	float: left;
+	margin-left: 20px;
+	margin:10px;
+	clear:both;
+}
