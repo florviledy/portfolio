@@ -23,8 +23,8 @@ section {
     border-radius: 10px;
     color: red;
     float:left;
-   height: 250px;
-    width: 550px;
+   height: 200px;
+    width: 300px;
     margin: 10px;
     margin-left: 20px;
 }
@@ -45,7 +45,7 @@ h3 {
 
 p {
     font-size: 18px;
-    line-height: 1.5;
+    line-height: 1;
     color: #555;
     float:left;
     text-align: center;
@@ -61,5 +61,4 @@ footer {
     border:15px;
     border-color: white;
 }
-
 
