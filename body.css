@@ -85,7 +85,7 @@ nav > ul li:hover .sous{
 
 .deroulant > a::after{
     content:"▼";
-    font-size: 45px;
+    font-size: 12px;
 }
 
 h1{
