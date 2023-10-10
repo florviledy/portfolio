@@ -105,3 +105,14 @@ h2{
     color: white;
     font-family: georgia, serif;
 }
+
+
+h1 {
+    font-size: 30px; 
+    color: whitesmoke;
+}
+
+
+h1:hover {
+    color: darkviolet;
+    font-size: 35px;
