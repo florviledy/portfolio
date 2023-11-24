@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(200, 161, 161);
+    }
+
+a{
+    width: 400px;
+    height: 200px;
+    background-color: #F4F4FF;
+    border: 2px solid white;
+    border-radius: 26px;
+    box-shadow: #003057 4px 4px 0 0;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    color: BLACK;
+    transition: 0.2s;
+    margin: 10px;
+    padding: 0 18px;
+}
